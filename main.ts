@@ -26,6 +26,21 @@ input.onButtonPressed(Button.A, function () {
         燈數_2(b, true)
         basic.pause(200)
     }
+    led.unplot(3, 4)
+    basic.pause(200)
+    led.unplot(2, 4)
+    basic.pause(200)
+    led.unplot(1, 4)
+    basic.pause(200)
+    led.unplot(0, 4)
+    basic.pause(200)
+    led.unplot(0, 3)
+    basic.pause(200)
+    led.unplot(0, 2)
+    basic.pause(200)
+    led.unplot(0, 1)
+    basic.pause(200)
+    led.unplot(0, 0)
 })
 /**
  * 這個還沒用完
